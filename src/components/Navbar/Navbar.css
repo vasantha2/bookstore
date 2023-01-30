@@ -1,0 +1,32 @@
+.navbar{
+    padding: 1rem 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+.nav-item{
+    margin-bottom: 1.4rem;
+}
+.nav-link{
+    transition: var(--transition);
+}
+.nav-link:hover{
+    color: var(--purple-color);
+}
+
+@media screen and (min-width: 992px){
+    
+    .nav-item{
+        margin-bottom: 0;
+        margin-left: 2.8rem;
+    }
+    .nav-link{
+        color: var(--black-color);
+        font-size: 1.7rem;
+        font-weight: 500!important;
+        opacity: 0.8;
+    }
+    .navbar-nav{
+        display: flex;
+    }
+}
